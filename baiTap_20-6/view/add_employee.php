@@ -8,7 +8,7 @@
         echo 'window.alert("' . $message . '");';
         echo '</script>';
         unset($_SESSION['message']); 
-
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
