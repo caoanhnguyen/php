@@ -191,41 +191,6 @@
 	            return ['success' => false, 'message' => $e->getMessage()];
 	        }
 		}
-		
-		// public function update_employee($employee,$id) {
-		//     try {
-		//         // Debug: In ra thông tin của đối tượng $employee
-		//         echo "Employee ID: " . $id . "<br>";
-		//         echo "Name: " . $employee->getName() . "<br>";
-		//         echo "Date of Birth: " . $employee->getDateOfBirth() . "<br>";
-		//         echo "Basic Salary: " . $employee->getBasicSalary() . "<br>";
-		//         echo "Employee Type: " . $employee->getEmployeeType() . "<br>";
-
-		//         switch ($employee->getEmployeeType()) {
-		//             case 'office':
-		//                 echo "So Ngay Lam: " . $employee->getSoNgayLam() . "<br>";
-		//                 echo "Tro Cap: " . $employee->getTroCap() . "<br>";
-		//                 break;
-		//             case 'production':
-		//                 echo "So San Pham: " . $employee->getSoSanPham() . "<br>";
-		//                 break;
-		//             case 'management':
-		//                 echo "He So Chuc Vu: " . $employee->getHeSoChucVu() . "<br>";
-		//                 echo "Thuong: " . $employee->getThuong() . "<br>";
-		//                 break;
-		//             default:
-		//                 echo "Invalid Employee Type" . "<br>";
-		//                 break;
-		//         }
-
-		//         // // Tiếp tục thực hiện các thao tác khác
-		//     } catch (Exception $e) {
-		//         echo '<script>';
-		//         echo 'window.alert("' . $e->getMessage() . '");';
-		//         echo '</script>';
-		//         return ['success' => false, 'message' => $e->getMessage()];
-		//     }
-		// }
 
 	}
 ?>

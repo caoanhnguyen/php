@@ -5,7 +5,6 @@
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $id = $_POST['id'];
         $controller = new employeeController();
-        // $employee = new Employee();
         $employee = $controller->getEmployeeById($id);
 
         if (!$employee) {

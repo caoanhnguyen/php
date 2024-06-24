@@ -7,8 +7,7 @@
         echo '<script>';
         echo 'window.alert("' . $message . '");';
         echo '</script>';
-        unset($_SESSION['message']); // Xóa thông báo sau khi hiển thị
-    }
+        unset($_SESSION['message']); 
 
 ?>
 <!DOCTYPE html>
@@ -86,7 +85,6 @@
 
         employeeTypeField.addEventListener('change', toggleFields);
 
-        //Initialize the fields based on the default selected option
         toggleFields();
     </script>
 </body>
