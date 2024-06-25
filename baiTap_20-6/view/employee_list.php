@@ -82,18 +82,18 @@
                         <form method="post" action="../controllers/controller.php" style="display:inline-block; margin:0;">
                             <input type="hidden" name="action" value="delete">
                             <input type="hidden" name="id" value="<?php echo $employee->getId(); ?>">
-                            <button class="btn btn-danger" type="button" onclick="confirmDelete(this.form)">Delete</button>
+                            <button class="btn btn-outline-danger" type="button" onclick="confirmDelete(this.form)">Delete</button>
                         </form>
                         <form method="post" action="../view/edit_employee.php" style="display:inline-block; margin:0;">
                             <input type="hidden" name="id" value="<?php echo $employee->getId(); ?>">
-                            <button class="btn btn-primary" type="submit">Edit</button>
+                            <button class="btn btn-outline-primary" type="submit">Edit</button>
                         </form>
                     </td>
                 </tr>
             <?php endforeach; ?>
             </tbody>
         </table>
-        <a href="add_employee.php" class="btn btn-secondary">Back</a>
+        <a href="add_employee.php" class="btn btn-outline-secondary">Back</a>
     </div>
 </body>
 </html>
