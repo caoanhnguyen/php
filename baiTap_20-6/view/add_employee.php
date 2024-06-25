@@ -65,8 +65,8 @@
                 <br><br>
             </div>
 
-            <button class="btn btn-primary" type="submit">Add Employee</button>
-            <a href="employee_list.php" class="btn btn-secondary">Xem Danh Sách</a>
+            <button class="btn btn-outline-primary" type="submit">Add Employee</button>
+            <a href="employee_list.php" class="btn btn-outline-secondary">Xem Danh Sách</a>
 
      </form>
     </div>

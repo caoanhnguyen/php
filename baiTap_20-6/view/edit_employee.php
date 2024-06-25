@@ -73,8 +73,8 @@
                 </div>
             <?php endif; ?>
 
-            <button class="btn btn-primary" type="submit">Update</button>
-            <a href="employee_list.php" class="btn btn-secondary">Xem Danh Sách</a>
+            <button class="btn btn-outline-success" type="submit">Update</button>
+            <a href="employee_list.php" class="btn btn-outline-secondary">Xem Danh Sách</a>
 
      </form>
     </div>
