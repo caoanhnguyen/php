@@ -31,7 +31,7 @@
 </head>
 <body>
     <div class="container-fluid mt-4">
-        <h1>Danh Sách Nhân Viên</h1>
+        <h1 class="my-4">Danh Sách Nhân Viên</h1>
         <table class="table border">
             <thead>
                 <tr>
